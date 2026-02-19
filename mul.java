@@ -8,9 +8,12 @@ import java.util.*;
             int n1=sc.nextInt();
             System.out.print("Enter the number 2: ");
             int n2=sc.nextInt();
-            int mul=n1*n2;
+            System.out.print("Enter the number 3: ");
+            int n3=sc.nextInt();
+            int mul=n1*n2*n3;
             System.out.print("The product of the two numbers is: ");
             System.out.println(mul);
         }
     
+
 }
